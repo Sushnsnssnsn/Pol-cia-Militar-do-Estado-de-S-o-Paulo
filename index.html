@@ -1,11 +1,125 @@
-<!DOCTYPE html><html lang="pt-BR"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Início | 2ª CIA PM</title><link rel="stylesheet" href="assets/style.css"></head><body>
-<div class="topbar"><div class="container"><span>Portal institucional da 2ª Companhia</span><span>Polícia Militar — 2ª CIA</span></div></div>
-<header class="navbar"><div class="container nav-content">
-<a class="brand" href="index.html"><div class="logo">2ª</div><div><strong>2ª CIA PM</strong><span>Comando Operacional</span></div></a>
-<button class="mobile-btn" onclick="toggleMenu()">MENU</button>
-<nav class="menu" id="menu">
-<a href="index.html">Início</a><a href="institucional.html">Institucional</a><a href="hierarquia.html">Hierarquia</a><a href="concurso.html">Concursos</a><a href="boletins.html">Boletins</a><a href="prisoes.html">Prisões</a><a href="barcas.html">Barcas</a><a href="intranet.html">Entrar</a><a href="painel.html" class="painel-link">🔒 Painel</a>
-</nav></div></header>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Início | 2ª CIA PM</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
 
-<section class="hero"><div class="container"><div class="badge">🚔 Portal Institucional</div><h1>2ª Companhia da Polícia Militar</h1><p>Portal público da 2ª Companhia. Visitantes podem consultar informações. O Painel Operacional é privado para membros autorizados.</p><div class="actions"><button class="btn btn-primary" onclick="fakeDiscordLogin()">Entrar com Discord</button><a class="btn btn-outline painel-link" href="painel.html">🔒 Abrir Painel</a><a class="btn btn-outline" href="concurso.html">Ingressar na Companhia</a><a class="btn btn-outline" href="prisoes.html">Ver Prisões</a></div><div class="stats-grid"><div class="stat-card"><strong id="statMembros">28</strong><span>Membros totais</span></div><div class="stat-card"><strong id="statPrisoes">0</strong><span>Prisões registradas</span></div><div class="stat-card"><strong id="statBoletins">0</strong><span>Boletins registrados</span></div><div class="stat-card"><strong id="statBarcas">0</strong><span>Barcas em serviço</span></div></div></div></section><section class="section"><div class="container"><div class="section-title"><small>Consulta pública</small><h2>Áreas do Portal</h2><p>O painel é privado, mas as consultas ficam públicas.</p></div><div class="grid"><div class="card"><h3>Concursos</h3><p>Formulário com prova automática.</p></div><div class="card"><h3>Boletins</h3><p>Consulta pública dos B.O.s.</p></div><div class="card"><h3>Prisões</h3><p>Consulta pública das prisões.</p></div></div></div></section>
-<footer class="footer"><div class="container footer-grid"><div><strong>2ª Companhia da Polícia Militar</strong><p style="margin-top:10px;line-height:1.6">Portal com painel privado e consultas públicas.</p></div><div><strong>Público</strong><p>Hierarquia<br>Concursos<br>Boletins<br>Prisões<br>Barcas</p></div><div><strong>Privado</strong><p>Painel<br>Criar B.O.<br>Criar Prisão<br>Assumir Barca</p></div></div><div class="container copy">© 2026 — 2ª Companhia da Polícia Militar</div></footer><script src="assets/script.js"></script></body></html>
+<div class="topbar">
+  <div class="container">
+    <span>Portal institucional da 2ª Companhia</span>
+    <span>Polícia Militar — 2ª CIA</span>
+  </div>
+</div>
+
+<header class="navbar">
+  <div class="container nav-content">
+    <a class="brand" href="index.html">
+      <div class="logo">2ª</div>
+      <div>
+        <strong>2ª CIA PM</strong>
+        <span>Comando Operacional</span>
+      </div>
+    </a>
+
+    <button class="mobile-btn" onclick="toggleMenu()">MENU</button>
+
+    <nav class="menu" id="menu">
+      <a href="index.html">Início</a>
+      <a href="institucional.html">Institucional</a>
+      <a href="hierarquia.html">Hierarquia</a>
+      <a href="concurso.html">Concursos</a>
+      <a href="boletins.html">Boletins</a>
+      <a href="prisoes.html">Prisões</a>
+      <a href="barcas.html">Barcas</a>
+      <a href="intranet.html">Entrar</a>
+      <a href="painel.html" class="painel-link">🔒 Painel</a>
+    </nav>
+  </div>
+</header>
+
+
+<section class="hero">
+  <div class="container">
+    <div class="badge">🚔 Portal Institucional</div>
+    <h1>2ª Companhia da <span>Polícia Militar</span></h1>
+    <p>
+      Portal público da 2ª Companhia. Visitantes podem consultar hierarquia, concursos,
+      boletins, prisões e barcas. O Painel Operacional é privado para membros autorizados.
+    </p>
+
+    <div class="actions">
+      <button class="btn btn-primary" onclick="fakeDiscordLogin()">Entrar com Discord</button>
+      <a class="btn btn-outline painel-link" href="painel.html">🔒 Abrir Painel</a>
+      <a class="btn btn-outline" href="concurso.html">Ingressar na Companhia</a>
+      <a class="btn btn-outline" href="prisoes.html">Ver Prisões</a>
+    </div>
+
+    <div class="stats-grid">
+      <div class="stat-card"><strong id="statMembros">28</strong><span>Membros totais</span></div>
+      <div class="stat-card"><strong id="statPrisoes">0</strong><span>Prisões registradas</span></div>
+      <div class="stat-card"><strong id="statBoletins">0</strong><span>Boletins registrados</span></div>
+      <div class="stat-card"><strong id="statBarcas">0</strong><span>Barcas em serviço</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-title">
+      <small>Consulta pública</small>
+      <h2>Áreas do Portal</h2>
+      <p>O painel é privado, mas as principais consultas ficam abertas ao público.</p>
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <div class="icon">📋</div>
+        <h3>Concursos</h3>
+        <p>Formulário com 20 perguntas sobre conduta, legalidade, rádio, patrulhamento e ética.</p>
+      </div>
+
+      <div class="card">
+        <div class="icon">🗂️</div>
+        <h3>Boletins</h3>
+        <p>Consulta pública dos B.O.s registrados por membros autorizados no painel.</p>
+      </div>
+
+      <div class="card">
+        <div class="icon">🚔</div>
+        <h3>Prisões</h3>
+        <p>Consulta pública das prisões criadas no painel, com número automático de B.O.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container footer-grid">
+    <div>
+      <strong>2ª Companhia da Polícia Militar</strong>
+      <p>Portal com consultas públicas e painel operacional privado para membros autorizados.</p>
+    </div>
+
+    <div>
+      <strong>Público</strong>
+      <p>Hierarquia<br>Concursos<br>Boletins<br>Prisões<br>Barcas</p>
+    </div>
+
+    <div>
+      <strong>Privado</strong>
+      <p>Painel<br>Criar B.O.<br>Criar Prisão<br>Assumir Barca</p>
+    </div>
+  </div>
+
+  <div class="container copy">© 2026 — 2ª Companhia da Polícia Militar</div>
+</footer>
+
+<script src="assets/script.js"></script>
+
+</body>
+</html>
